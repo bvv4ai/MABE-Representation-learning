@@ -1,9 +1,6 @@
 MABE challenge - Social action recognition in mice
 Final demo video
-
-
-https://github.com/user-attachments/assets/72d8f568-d5fe-440d-b095-16d1b7c0b093
-
+out.mp4
 
 => build models to identify over 30 different social and non-social behaviors in pairs and groups of co-housed mice. 
 
