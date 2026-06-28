@@ -4,8 +4,8 @@ out.mp4
 
 => build models to identify over 30 different social and non-social behaviors in pairs and groups of co-housed mice. 
 
-The data we got is from many labs, we need to identify an effective common way to process them.
-We have atmost 4 mice in each setup. We have the xy locations of the mouse bodypart.
+The data we got is from many labs so we need to identify an effective common way to process them.
+We have atmost 4 mice in each setup. We have the xy locations of the mouse bodyparts.
 
 My approach is to recreate the top down view of arena.
 
@@ -18,7 +18,7 @@ types_of_arenas = {"neutral": 153/255.0
                    "familiar": 34/255.0,
                    "CSDS":67/255.0,np.nan:128/255.0}
 My approach is to first create the arena, and color the arena (used grayscale) based on its type.
-
+To use as many features as possible.
 Mice can be classified into 2 types (Male,female) based on gender. To distinguish the gender,
 the male mice I draw on the arena will have large black ears.
 Based on color, the mice can further be classified as
